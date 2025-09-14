@@ -1,0 +1,184 @@
+.head {
+  min-height: 1060px;
+  background-image: url(/img/room.svg);
+}
+
+.aside {
+  min-width: 323px;
+}
+
+.aside-line {
+  position: relative;
+  width: 2.5px;
+  height: 1062.008px;
+  left: 180px;
+  background: linear-gradient(
+    70deg,
+    rgba(46, 236, 197, 0) 0%,
+    rgba(46, 236, 197, 0.5) 43.69%,
+    rgba(46, 236, 197, 0.07) 92.19%,
+    rgba(255, 177, 177, 0) 100%
+  );
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lamp {
+  display: flex;
+  justify-content: center;
+}
+
+.lamp-conteiner {
+  position: relative;
+  width: 127px;
+  height: 49px;
+  right: 224px;
+  background-image: url(/img/lamp.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu-conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+}
+
+.logo {
+  /* margin-left: 16px; */
+  transform: rotate(-0.192deg);
+}
+
+.logo-studio {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135.6%;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 5.27px;
+  transform: rotate(-0.192deg);
+}
+
+.logo-studio::after {
+  content: "studio";
+}
+
+.logo-web {
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.6%;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  left: 1px;
+  transform: rotate(-0.192deg);
+  bottom: -5px;
+}
+
+.logo-web::after {
+  content: "web";
+}
+
+.menu {
+  position: relative;
+left: 87px;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  /* padding-inline-start: 267px; */
+  margin: 18px 0;
+  z-index: 1;
+}
+
+.menu li {
+  font-size: 20px;
+  line-height: 133%;
+}
+
+.li-main {
+  display: none;
+}
+.li-question a::after {
+  content: "Почему именно мы?";
+}
+.li-portfolio a::after {
+  content: "Портфолио";
+}
+.li-tdrif a::after {
+  content: "Тарифы";
+}
+.li-contacty a::after {
+  content: "Контакты";
+}
+.li-bid a::after{
+  content: "Тарифы";
+}
+
+.button-header {
+  position: relative;
+  width: 307px;
+  height: 168px;
+  right: 246px;
+  top: -49px;
+  /* background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 62px rgba(46, 236, 197, 0.15); */
+  background-image: url(/img/btnheader.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-header p {
+  width: 97px;
+  height: 21px;
+  font-size: 20px;
+  line-height: 43%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-h1 {
+  margin-top: 221px;
+}
+.title-h2 {
+  
+}
+
+
+.man {
+  display: flex;
+}
+
+.man-conteiner {
+  position: relative;
+  width: 663px;
+  height: 844px;
+  top: 106px;
+  right: 118px;
+  background-image: url(/img/man.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.target-conteiner {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: 334px;
+  right: 8px;
+  background-image: url(/img/circle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
