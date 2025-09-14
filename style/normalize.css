@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    padding-inline-start: 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a,
+  a:visited,
+  a:link {
+    text-decoration: none;
+    outline: none;
+    color: var(--font-color);
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  body {
+    background: #161617;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  input[type="checkbox"] {
+    appearance: none;
+  }
+
+  button {
+    all: unset;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
