@@ -1,0 +1,96 @@
+.menu-conteiner {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.logo {
+}
+
+.logo-studio {
+  font-weight: 600;
+  transform: rotate(-0.192deg);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.logo-studio::after {
+  content: "studio";
+}
+
+.logo-web {
+  /* position: absolute; */
+  font-weight: 600;
+  line-height: 138.6%;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  /*    left: 1px; */
+  transform: rotate(-0.192deg);
+  /*    bottom: -5px; */
+}
+
+.logo-web::after {
+  content: "web";
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  font-size: 20px;
+  line-height: 133%;
+}
+
+.li-main {
+  display: none;
+}
+.li-question a::after {
+  content: "Почему именно мы?";
+}
+.li-portfolio a::after {
+  content: "Портфолио";
+}
+.li-tdrif a::after {
+  content: "Тарифы";
+}
+.li-contacty a::after {
+  content: "Контакты";
+}
+.li-bid a::after {
+  content: "Тарифы";
+}
+
+.button-header {
+  position: relative;
+  width: 180px;
+  height: 55px;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 62px rgba(46, 236, 197, 0.15);
+}
+
+.button-header p {
+  font-size: 20px;
+}
+
+@media (max-width: 360px) {
+  .logo-studio {
+    display: none;
+  }
+
+  .logo-web {
+    display: none;
+  }
+
+  .logo {
+    width: 69px;
+    height: 47px;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+  }
+}
