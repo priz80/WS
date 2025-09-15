@@ -1,4 +1,49 @@
 .about {
-    min-height: 1060px;
-    background-image: url(/img/room.svg);
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-conteiner {
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 35px;
+  /* width: 1274px; */
+/*   height: 835px; */
+  margin-top: 82px;
+  margin-bottom: 144px;
+  /* right: 131px; */
+}
+
+.about-header {
+  width: 838px;
+  height: 400px;
+}
+
+.abour-header_conteiner {
+  position: relative;
+  width: 672px;
+  height: 360px;
+  top: 12px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    140deg,
+    #303134 10.06%,
+    #282828 53.72%,
+    #282828 88%
+  );
+  box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+}
+
+.card-bg {
+background: linear-gradient(140deg, #527791 10.06%, #325597 53.72%, #193895 88%);
+box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+}
