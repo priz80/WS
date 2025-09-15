@@ -1,4 +1,29 @@
 .portfolio {
-    min-height: 1060px;
-    background-image: url(/img/room.svg);
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-conteiner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 32px;
+  width: 1274px;
+  height: 363px;
+  top: 122px;
+  right: 128px;
+}
+
+.portfolio-header {
+  width: 838px;
+  height: 400px;
+}
+
+.portfolio-header_conteiner {
+  position: relative;
+  width: 672px;
+  /* height: 800px; */
+  top: 12px;
+}
