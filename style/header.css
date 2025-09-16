@@ -60,18 +60,17 @@ h3::after {
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+
 }
 
 .target-conteiner {
   position: relative;
-  /* display: flex; */
   z-index: -1;
   left: 73px;
   bottom: 22px;
 }
 
 .circle {
-  /* position: absolute; */
   width: 700px;
   height: 700px;
   border-radius: 700px;
@@ -79,7 +78,6 @@ h3::after {
 }
 
 .circle-s {
-  /* position: absolute; */
   width: 584px;
   height: 584px;
   border-radius: 584px;
@@ -89,7 +87,6 @@ h3::after {
 }
 
 .circle-m {
-  /* position: absolute; */
   width: 467px;
   height: 466px;
   border-radius: 467px;
@@ -112,11 +109,86 @@ h3::after {
 }
 
 @media (max-width: 1300px) {
+  .line {
+    top: 640px;
+  }
+
+  .main-conteiner {
+    height: 640px;
+  }
+
+  .header-conteiner {
+    height: 416px;
+  }
+
   .h2 {
     display: none;
   }
-  
+
   h3::after {
     content: "Мы web-студия которая работает уже больше 3-х лет";
   }
+
+  .man {
+/*     position: absolute;
+    display: flex;
+    align-items: flex-end; */
+    right: 47px;
   }
+
+  .man-conteiner {
+    width: 330px;
+    height: 412px;
+  }
+
+  .target-conteiner {
+ /*    position: relative;
+    z-index: -1; */
+    left: 20px;
+    bottom: -5px;
+  }
+
+  .circle {
+    width: 347px;
+    height: 347px;
+    border-radius: 347px;
+  }
+
+  .circle-s {
+    width: 289px;
+    height: 289px;
+    border-radius: 289px;
+    margin-top: 28px;
+  }
+
+  .circle-m {
+    width: 231px;
+    height: 231px;
+    border-radius: 231px;
+    margin-top: 28px;
+  }
+}
+
+@media (max-width: 960px) {
+  .man {
+    /*     position: absolute;
+        display: flex;
+        align-items: flex-end; */
+        right: -93px;
+      }
+
+
+.main {
+  overflow: hidden;
+}
+
+.h1 {
+  width: 228px;
+}
+
+.h3 {
+  width: 218px;
+}
+
+    }
+
