@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  height: 112px;
+  /* height: 106px; */
 }
 
 .menu-conteiner {
@@ -40,6 +40,10 @@
 }
 
 .main-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-inline-start: 198px;
 }
 
 
