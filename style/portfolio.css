@@ -3,6 +3,7 @@
   width: 1905px;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .portfolio-conteiner {
