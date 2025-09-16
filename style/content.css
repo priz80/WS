@@ -13,18 +13,14 @@
 
 .section-conteiner_header {
   background-image: url(/img/room.svg);
-  margin-bottom: 89px;
 }
 .section-conteiner_about {
   background-image: url(/img/group-lineup.svg);
-  margin-bottom: 53px;
 }
 .section-conteiner_portfolio {
   background-image: url(/img/group-line.svg);
-  margin-bottom: 53px;
 }
 .section-conteiner_tarif {
-  margin-bottom: 53px;
 }
 
 .aside-line {
