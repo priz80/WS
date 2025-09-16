@@ -1,14 +1,18 @@
 .about {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  max-width: 1305px;
+  padding-left: 22px;
+  padding-right: 10px;
+
 }
 
 .about-conteiner {
   /* position: relative; */
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 35px;
   /* width: 1274px; */
 /*   height: 835px; */
@@ -46,4 +50,9 @@
 .card-bg {
 background: linear-gradient(140deg, #527791 10.06%, #325597 53.72%, #193895 88%);
 box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+}
+
+
+@media (screen) {
+  
 }
