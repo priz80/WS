@@ -144,7 +144,7 @@ h3::after {
   .target-conteiner {
  /*    position: relative;
     z-index: -1; */
-    left: 20px;
+    left: 38px;
     bottom: -5px;
   }
 
@@ -174,7 +174,7 @@ h3::after {
     /*     position: absolute;
         display: flex;
         align-items: flex-end; */
-        right: -93px;
+        right: -92px;
       }
 
 
