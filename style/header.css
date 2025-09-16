@@ -12,7 +12,7 @@
   max-width: 1305px;
   padding-left: 22px;
   padding-right: 10px;
-  height: 1060px;
+  height: 1055px;
 }
 
 .lamp {
@@ -43,7 +43,8 @@
 .man {
   position: absolute;
   display: flex;
-  align-items: flex-end
+  align-items: flex-end;
+  right: 116px;
 }
 
 .man-conteiner {
@@ -52,6 +53,8 @@
   background-image: url(/img/man.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
 }
 
 
