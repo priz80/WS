@@ -40,10 +40,12 @@
 }
 
 .main-menu {
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 30px;
-  margin-inline-start: 198px;
+  margin-inline-end: 88px;
 }
 
 
@@ -77,4 +79,79 @@
   height: 55px;
   background: rgba(46, 236, 197, 0.1);
   box-shadow: 0 0 62px rgba(46, 236, 197, 0.15);
+}
+
+
+@media (max-width: 960px) {
+  .menu-conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse
+  }
+
+  .burger {
+    width: 73px;
+    height: 76px;
+    background-image: url(../img/burger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .burger-x {
+    width: 40px;
+    height: 40px;
+    margin: 18px 14px;
+    background-image: url(../img/burgerX.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  .li-main {
+    display: none;
+  }
+  .li-question a::after {
+    content: "Почему именно мы?";
+  }
+  .li-portfolio a::after {
+    content: "Портфолио";
+  }
+  .li-tdrif a::after {
+    content: "Тарифы";
+  }
+  .li-contacty a::after {
+    content: "Контакты";
+  }
+  .li-bid a::after {
+    content: "Оставить заявку";
+  }
+
+  .button-header {
+    display: none;
+  }
+
+  .logo-studio {
+    display: none;
+  }
+
+  .logo-web {
+    display: none;
+  }
+
+  .logo {
+    width: 69px;
+    height: 47px;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 18px;
+  }
+
+  .h2 {
+    display: none;
+  }
+  
 }
