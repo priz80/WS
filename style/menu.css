@@ -1,8 +1,14 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 112px;
+}
+
 .menu-conteiner {
   display: flex;
   justify-content: space-between;
-  height: 56px;
 }
+
 
 .logo {
     display: flex;
