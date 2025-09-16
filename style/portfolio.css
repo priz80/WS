@@ -1,26 +1,41 @@
 .portfolio {
+  position: relative;
+  width: 1905px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.portfolio-conteiner {
   width: 100%;
     display: flex;
-    flex-direction: column;
     max-width: 1305px;
     padding-left: 22px;
     padding-right: 10px;
 }
 
 .portfolio-conteiner {
-  display: flex;
+  /* display: flex; */
     /* flex-wrap: wrap; */
     /* justify-content: center; */
-    gap: 35px;
+    /* gap: 35px; */
     /* margin-top: 82px; */
     /* margin-bottom: 144px; */
 }
 
 .portfolio-header {
-  width: 838px;
+  width: 526px;
   height: 400px;
 }
 
 .portfolio-header_conteiner {
  /*  width: 672px; */
+}
+
+.portfolio-arrow_conteiner {
+  /* position: absolute; */
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 155px;
 }
