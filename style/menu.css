@@ -89,6 +89,14 @@
     flex-direction: row-reverse
   }
 
+  .menu {
+    margin-top: 49px;
+  }
+
+  .lamp {
+    display: none;
+  }
+
   .burger {
     width: 73px;
     height: 76px;
