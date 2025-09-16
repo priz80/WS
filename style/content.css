@@ -52,3 +52,9 @@
 .aside-line_tarif {
   height: 984px; 
 }
+
+@media (max-width: 1300px) {
+.aside-line_main {
+  height: 640px; 
+}
+}
