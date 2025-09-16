@@ -86,7 +86,8 @@
   .menu-conteiner {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
+    align-items: center;
   }
 
   .menu {
