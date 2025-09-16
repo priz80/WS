@@ -9,6 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   max-width: 1305px;
   padding-left: 22px;
   padding-right: 10px;
@@ -24,7 +25,6 @@
   background-repeat: no-repeat;
 }
 
-
 .header {
   display: flex;
   flex-direction: column;
@@ -32,19 +32,19 @@
 }
 
 .header-conteiner {
-  width: 807px;
+  max-width: 807px;
+  height: 728px;
 }
 
 .h3 {
-  width: 672px;
+  max-width: 672px;
 }
-
 
 .man {
   position: absolute;
   display: flex;
   align-items: flex-end;
-  right: 116px;
+  right: 118px;
 }
 
 .man-conteiner {
@@ -57,11 +57,12 @@
   align-items: flex-end;
 }
 
-
 .target-conteiner {
-  /* position: relative; */
+  position: relative;
   /* display: flex; */
-  
+  z-index: -1;
+  left: 73px;
+  bottom: 22px;
 }
 
 .circle {
@@ -91,8 +92,6 @@
   margin: 0 auto;
   margin-top: 59px;
 }
-
-
 
 .line {
   position: absolute;
