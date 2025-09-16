@@ -1,19 +1,19 @@
 .portfolio {
   width: 100%;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1305px;
+    padding-left: 22px;
+    padding-right: 10px;
 }
 
 .portfolio-conteiner {
-  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  /* justify-content: center; */
-  gap: 32px;
-  width: 1274px;
-  height: 363px;
-  top: 122px;
-  right: 128px;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 35px;
+    /* margin-top: 82px; */
+    /* margin-bottom: 144px; */
 }
 
 .portfolio-header {
@@ -22,8 +22,5 @@
 }
 
 .portfolio-header_conteiner {
-  position: relative;
-  width: 672px;
-  /* height: 800px; */
-  top: 12px;
+ /*  width: 672px; */
 }
