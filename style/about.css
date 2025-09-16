@@ -5,20 +5,12 @@
   max-width: 1305px;
   padding-left: 22px;
   padding-right: 10px;
-
 }
 
 .about-conteiner {
-  /* position: relative; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 35px;
-  /* width: 1274px; */
-/*   height: 835px; */
-  margin-top: 82px;
-  margin-bottom: 144px;
-  /* right: 131px; */
 }
 
 .about-header {
@@ -27,10 +19,10 @@
 }
 
 .abour-header_conteiner {
-  position: relative;
-  width: 672px;
-  height: 360px;
-  top: 12px;
+
+/*   width: 672px;
+  height: 360px; */
+
 }
 
 .card {
@@ -50,9 +42,4 @@
 .card-bg {
 background: linear-gradient(140deg, #527791 10.06%, #325597 53.72%, #193895 88%);
 box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
-}
-
-
-@media (screen) {
-  
 }
