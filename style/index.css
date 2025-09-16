@@ -1,7 +1,9 @@
 @import "/font/stylesheet.css";
 @import "normalize.css";
+@import "btnupvidget.css";
 @import "font-style.css";
 @import "content.css";
+
 @import "button-style.css";
 @import "menu.css";
 
