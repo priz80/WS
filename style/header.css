@@ -181,7 +181,9 @@ h3::after {
 .main {
   overflow: hidden;
 }
+}
 
+@media (max-width: 480px) {
 .h1 {
   width: 228px;
 }
@@ -189,6 +191,4 @@ h3::after {
 .h3 {
   width: 218px;
 }
-
-    }
-
+}
