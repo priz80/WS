@@ -39,11 +39,9 @@
   content: "web";
 }
 
-.menu {
-  position: relative;
-  display: flex;
-  justify-content: center;
+.main-menu {
 }
+
 
 .menu li {
   font-size: 20px;
