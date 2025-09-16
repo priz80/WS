@@ -1,10 +1,18 @@
 .main {
+  width: 1905px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.main-conteiner {
   width: 100%;
   display: flex;
   flex-direction: column;
   max-width: 1305px;
   padding-left: 22px;
   padding-right: 10px;
+  height: 1060px;
 }
 
 .lamp {
@@ -19,37 +27,69 @@
 
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 
+.header-conteiner {
+  width: 807px;
+}
+
+.h3 {
+  width: 672px;
+}
+
+
 .man {
-  /* display: flex; */
+  position: absolute;
+  display: flex;
+  align-items: flex-end
 }
 
 .man-conteiner {
-  position: absolute;
-  /* width: 663px; */
-  width: 100%;
+  width: 663px;
   height: 844px;
-  /* top: 6px; */
-  right: 7px;
-  top: 3px;
-  /* bottom: -21px; */
-  background-image: url(/img/man.png);
+  background-image: url(/img/man.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+
 .target-conteiner {
   /* position: relative; */
-  /* width: 700px;
-  height: 700px; */
-  /* margin-top: 8px;
-  margin-right: 8px; */
-  /* background-image: url(/img/circle.svg);
-  background-size: contain;
-  background-repeat: no-repeat; */
+  /* display: flex; */
+  
 }
+
+.circle {
+  /* position: absolute; */
+  width: 700px;
+  height: 700px;
+  border-radius: 700px;
+  border: 2px solid rgba(46, 236, 197, 0.09);
+}
+
+.circle-s {
+  /* position: absolute; */
+  width: 584px;
+  height: 584px;
+  border-radius: 584px;
+  border: 2px solid rgba(46, 236, 197, 0.2);
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.circle-m {
+  /* position: absolute; */
+  width: 467px;
+  height: 466px;
+  border-radius: 467px;
+  border: 2px solid rgba(46, 236, 197, 0.6);
+  margin: 0 auto;
+  margin-top: 59px;
+}
+
+
 
 .line {
   position: absolute;
