@@ -30,4 +30,5 @@
   top: 155px;
   right: 306px;
   gap: 499px;
+  z-index: 1;
 }
