@@ -30,7 +30,7 @@
   gap: 1106px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1270px) {
   .tarif-arrow_conteiner {
     position: static;
     display: flex;
