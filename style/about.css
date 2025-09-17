@@ -18,7 +18,7 @@
 
 .about-header {
   width: 838px;
-  min-height: 400px;
+  height: 400px;
   padding-top: 12px;
 
 }
@@ -69,19 +69,15 @@ max-width: 672px;
 
 @media (max-width: 1270px) {
   .about-conteiner {
-    width: 100%;
-    max-width: 1283px;
-    display: flex;
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
-    padding-left: 10px;
-    gap: 35px;
+height: 1684px;
 }
 
 .about-header {
   width: auto;
-  height: auto;
+/*   min-height: 100px; */
 }
 
 .abour-header_conteiner {
