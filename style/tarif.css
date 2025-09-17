@@ -2,6 +2,7 @@
   width: 1905px;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .tarif-conteiner {
@@ -27,4 +28,13 @@
   top: 270px;
   justify-content: center;
   gap: 1106px;
+}
+
+@media (max-width: 1300px) {
+  .tarif-arrow_conteiner {
+    position: static;
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+  }
 }
