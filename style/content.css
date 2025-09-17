@@ -21,11 +21,25 @@
   background-image: url(/img/group-line.svg);
 }
 
+.section-conteiner_forma {
+  width: 100%;
+  height: 458px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    92deg,
+    #313134 -11.81%,
+    #222224 23.9%,
+    #12473c 60.63%,
+    #292929 110.44%
+  );
+}
+
 
 .aside-line {
   position: relative;
   width: 2.5px;
-  right: 119px;
+  right: 130px;
   background: linear-gradient(
     70deg,
     rgba(46, 236, 197, 0) 0%,
