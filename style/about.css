@@ -1,16 +1,18 @@
 .about {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  max-width: 1305px;
-  padding-left: 22px;
-  padding-right: 10px;
+
+  width: 1905px;
+  display: flex
+;
+  justify-content: center;
 }
 
 .about-conteiner {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
+  width: 100%;
+  max-width: 1283px;
+  padding-left: 10px;
 }
 
 .about-header {
