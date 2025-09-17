@@ -1,9 +1,33 @@
 .tarif {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1305px;
-  padding-left: 22px;
-  padding-right: 10px;
+  position: relative;
+    width: 1905px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .tarif-conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1283px;
+    padding-left: 10px;
+  }
+
+  .tarif-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tarif-header_conteiner {
+    
+  }
+
+  .tarif-arrow_conteiner {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    top: 270px;
+    justify-content: center;
+    gap: 1106px;
   }
