@@ -9,9 +9,8 @@
 .portfolio-conteiner {
   width: 100%;
   display: flex;
-  max-width: 1305px;
-  padding-left: 22px;
-  padding-right: 10px;
+  max-width: 1283px;
+  padding-left: 10px;
 }
 
 .portfolio-header {
