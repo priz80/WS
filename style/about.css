@@ -12,16 +12,35 @@
   justify-content: center;
   gap: 35px;
   padding-left: 10px;
+  height: 924px;
+  padding-top: 89px;
 }
 
 .about-header {
   width: 838px;
-  height: 400px;
+  min-height: 400px;
+  padding-top: 12px;
 
 }
 
 .abour-header_conteiner {
-/* display: flex; */
+max-width: 672px;
+}
+
+.title-about_h4 {
+  
+  padding-left: 2px;
+  letter-spacing: 0.07px;
+}
+.subtitle-about_h5_up {
+  padding-top: 20px;
+  padding-left: 2px;
+  letter-spacing: -0.07px;
+}
+.subtitle-about_h5_down {
+  /* padding-top: 20px; */
+  padding-left: 2px;
+  letter-spacing: -0.07px;
 }
 
 .card {
@@ -48,7 +67,7 @@
   box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1270px) {
   .about-conteiner {
     width: 100%;
     max-width: 1283px;
