@@ -1,33 +1,26 @@
 .contacty {
-    width: 1905px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
 }
 
 .contacty-conteiner {
-    width: 100%;
-/*     display: flex;
-    flex-direction: column; */
-    max-width: 1283px;
-    padding-left: 10px;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contacty-header_conteiner {
 }
 
-
 @media (min-width: 1300px) {
-    
-
-.contacty-header {
+  .contacty-header {
     text-align: center;
     /* margin-bottom: 97px; */
   }
 
   .contacty-header_conteiner {
-}
-  
+  }
+
   .contacty-header_conteiner p {
     font-size: 96px;
     font-style: normal;
@@ -35,244 +28,337 @@
     line-height: normal;
     letter-spacing: 1.92px;
   }
-  
+
   .contacty-header_conteiner p::after {
     content: "Контакты";
   }
 }
 
 .block-contacty {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    /* padding-inline-start: 25px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* gap: 46px; */
+}
+
+.block-contacty_conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 834px;
+  height: 165px;
+  /* padding-inline-start: 25px; */
+  /* padding-left: 10px; */
+  /* gap: 46px; */
+}
+
+.block-stars {
+  position: absolute;
+  width: 100%;
+  top: 4373px;
+  display: flex;
+  justify-content: center;
+}
+
+.block-stars_conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 604px;
+  height: 175px;
+  padding-inline-start: 22px;
+}
+
+.block-stars_position {
+  width: 66px;
+  display: flex;
+}
+
+.stars-block_leftgap {
+  gap: 14px;
+}
+.stars-block_rightgap {
+  gap: 0px;
+}
+
+.star-left_s {
+  display: none;
+}
+
+.star-left {
+  margin-top: 113px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-right {
+  margin-top: 33px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-small {
+  opacity: 0.5;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-small_left {
+  margin-top: 159px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star-small_right {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circleslider {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  opacity: 0.9;
+  background-image: url(../img/slider-contacty/Ellipse\ 233.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ballslider {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1300px) {
+  .ballslider {
+    background-image: url(../img/slider-contacty/Group\ 26.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  .block-contacty_conteiner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 46px;
+
+  .telegram {
+    background-image: url(../img/slider-contacty/Telegram-s.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  .block-stars {
-    position: absolute;
-    width: 100%;
-    top: 4373px;
-    display: flex;
-    justify-content: center;
+
+  .telegrams {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  .block-stars_conteiner {
-    display: flex;
-    justify-content: space-between;
-    width: 604px;
-      height: 175px;
-      padding-inline-start: 22px;
+
+  .vk {
+    background-image: url(../img/slider-contacty/Vk.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  
-  .block-stars_position {
-    width: 66px;
-    display: flex;
+  .gmail {
+    background-image: url(../img/slider-contacty/gmail.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  .stars-block_leftgap {
-    gap: 14px;
+  .max {
+    background-image: url(../img/slider-contacty/Max.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  .stars-block_rightgap {
-    gap: 0px;
+  .linkedin {
+    background-image: url(../img/slider-contacty/LinkedIN.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  
-  .star-left_s {
+}
+
+.icon-contacty {
+  width: 43px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.ballsliders {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+  background-image: url(../img/slider-contacty/ball.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circlesliders {
+  width: 165px;
+  height: 165px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #2eecc5;
+  opacity: 0.9;
+  background-image: url(../img/slider-contacty/Ellipse\ 236.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .star-left {
     display: none;
   }
-  
-  .star-left {
-  margin-top: 113px;
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/star.svg);
+
+  .star-left_s {
+    position: absolute;
+    top: 4766px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    background-image: url(../img/star-s.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
-  
+
   .star-right {
-    margin-top: 33px;
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/star.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    top: 4450px;
+    left: 277px;
   }
-  
-  .star-small {
-    opacity: 0.5;
-    width: 16px;
-    height: 16px;
-    background-image: url(../img/star-small.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
+
   .star-small_left {
-    margin-top: 159px;
-    width: 16px;
-    height: 16px;
-    background-image: url(../img/star-small.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    top: 4907px;
+    left: 314px;
+    opacity: 0.3;
   }
-  
+
   .star-small_right {
-    width: 16px;
-    height: 16px;
-    background-image: url(../img/star-small.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    top: 4428px;
+    left: 241px;
+    opacity: 0.5;
   }
-  
-  
-  .circleslider {
-    width: 110px;
-    height: 110px;
-    flex-shrink: 0;
-    stroke-width: 1px;
-    opacity: 0.9;
-    background-image: url(../img/slider-contacty/Ellipse\ 233.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .block-stars {
+    top: 3373px;
   }
-  
-  .ballslider {
-    width: 90px;
-    height: 90px;
-    flex-shrink: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  @media (min-width: 1300px) {
-    .ballslider {
-      background-image: url(../img/slider-contacty/Group\ 26.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    .telegram {
-      background-image: url(../img/slider-contacty/Telegram-s.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    .telegrams {
-      background-image: url(../img/slider-contacty/Telegram.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    .vk {
-      background-image: url(../img/slider-contacty/Vk.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .gmail {
-      background-image: url(../img/slider-contacty/gmail.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .max {
-      background-image: url(../img/slider-contacty/Max.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-    .linkedin {
-      background-image: url(../img/slider-contacty/LinkedIN.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  }
-  
-  .icon-contacty {
-    width: 43px;
-    height: 40px;
-    flex-shrink: 0;
-  }
-  
-  .ballsliders {
-    width: 140px;
-    height: 140px;
-    flex-shrink: 0;
-    background-image: url(../img/slider-contacty/ball.svg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .circlesliders {
-    width: 165px;
-    height: 165px;
-    flex-shrink: 0;
-    stroke-width: 1px;
-    stroke: #2eecc5;
-    opacity: 0.9;
-    background-image: url(../img/slider-contacty/Ellipse\ 236.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  @media (max-width: 1300px) {
-    .star-left {
-      display: none;
-    }
-  
-    .star-left_s {
-      position: absolute;
-      top: 4766px;
-      left: 0px;
-      width: 16px;
-      height: 16px;
-      opacity: 0.7;
-      background-image: url(../img/star-s.svg);
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    .star-right {
-      top: 4450px;
-      left: 277px;
-    }
-  
-    .star-small_left {
-      top: 4907px;
-      left: 314px;
-      opacity: 0.3;
-    }
-  
-    .star-small_right {
-      top: 4428px;
-      left: 241px;
-      opacity: 0.5;
-    }
-  
-    .block-stars {
-      top: 3373px;
-  }
-  
+
   .section-contacty {
     top: 3911px;
   }
+}
+
+@media (max-width: 1300px) {
+  /*   .block-contacty {
+      top: 4902px;
+    } */
+
+  /*   .contacty-title {
+      display: none;
+    } */
+
+  .block-contacty {
+    height: 86px;
+    /*      top: 4942px; */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      110deg,
+      #313134 0%,
+      #222224 42.27%,
+      #292929 100%
+    );
+    gap: 18px;
   }
+
+  .block-contacty_conteiner {
+    max-width: 341px;
+  }
+
+  .circleslider {
+    width: 55px;
+    height: 55px;
+  }
+
+  .ballslider {
+    width: 45px;
+    height: 45px;
+    background-image: url(../img/m-slider-contacty/s-Instagram.svg);
+  }
+
+  .icon-contacty {
+    width: 24px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .telegram {
+    margin-left: 5px;
+    background-image: url(../img/slider-contacty/Telegram-s.svg);
+  }
+
+  .telegrams {
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/Telegram.svg);
+  }
+
+  .vk {
+    margin-left: 6px;
+    background-image: url(../img/slider-contacty/Vk.svg);
+  }
+  .gmail {
+    margin-left: 8px;
+    background-image: url(../img/slider-contacty/gmail.svg);
+  }
+  .max {
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/Max.svg);
+  }
+  .linkedin {
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/LinkedIN.svg);
+  }
+
+  .ballsliders {
+    width: 55px;
+    height: 55px;
+  }
+
+  .circlesliders {
+    width: 65px;
+    height: 65px;
+  }
+
+  .icon-contacty:hover {
+    width: 30px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
