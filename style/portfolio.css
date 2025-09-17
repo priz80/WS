@@ -1,6 +1,7 @@
 .portfolio {
   position: relative;
   width: 1905px;
+  /* height: auto; */
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -11,6 +12,7 @@
   display: flex;
   max-width: 1283px;
   padding-left: 10px;
+  height: auto;
 }
 
 .portfolio-header {
@@ -31,4 +33,43 @@
   right: 306px;
   gap: 499px;
   z-index: 1;
+}
+
+
+@media (max-width: 1300px) {
+.portfolio-arrow_conteiner {
+  position: static;
+  /* width: 100px; */
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  top: 155px;
+  right: 306px;
+  gap: 39px;
+  z-index: 1;
+}
+
+
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.portfolio-conteiner {
+  justify-content: center;
+}
+
+.portfolio-header_conteiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.portfolio-header {
+  width: auto;
+  height: auto;
+}
 }
