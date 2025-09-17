@@ -127,7 +127,7 @@ h3::after {
   );
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1270px) {
   .line {
     top: 640px;
   }
