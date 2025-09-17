@@ -64,6 +64,17 @@
 
 @media (max-width: 1300px) {
 .aside-line_main {
-  height: 640px; 
+  height: auto; 
 }
+
+.aside-line_about {
+  height: auto; 
+}
+.aside-line_portfolio {
+  height: auto; 
+}
+.aside-line_tarif {
+  height: auto; 
+}
+
 }
