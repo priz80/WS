@@ -66,13 +66,15 @@
 @media (max-width: 1300px) {
 
   .slider-portfolio {
-    top: 1744px;
+    position: static;
   }
   
   .slider-portfolio_container {
     gap: 39px;
     width: 1213px;
-    padding-inline-start: 740px;
+    padding-inline-start: 200px;
+    justify-content: center;
+
     
   }
   
