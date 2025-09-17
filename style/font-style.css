@@ -73,7 +73,7 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1270px) {
   h1 {
     font-size: 27px;
     font-style: normal;
