@@ -20,15 +20,13 @@
   width: 838px;
   height: 400px;
   padding-top: 12px;
-
 }
 
 .abour-header_conteiner {
-max-width: 672px;
+  max-width: 672px;
 }
 
 .title-about_h4 {
-  
   padding-left: 2px;
   letter-spacing: 0.07px;
 }
@@ -67,28 +65,24 @@ max-width: 672px;
   box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
 }
 
-@media (max-width: 1270px) {
+/* @media (max-width: 1270px) {
   .about-conteiner {
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
-height: 1684px;
-}
+    height: 1684px;
+  }
 
-.about-header {
-  width: auto;
-/*   min-height: 100px; */
-}
+  .about-header {
+    width: auto;
+  }
 
-.abour-header_conteiner {
-  /* display: flex
-; */
-margin: 0 auto;
-}
+  .abour-header_conteiner {
+    margin: 0 auto;
+  }
 
-.card {
-  width: 286px;
-  height: 286px;
-  
-}
-}
+  .card {
+    width: 286px;
+    height: 286px;
+  }
+} */
