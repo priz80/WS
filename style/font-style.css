@@ -73,7 +73,7 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 
-/* @media (max-width: 1270px) {
+@media (max-width: 1060px) {
   h1 {
     font-size: 27px;
     font-style: normal;
@@ -125,4 +125,4 @@ h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-} */
+}
