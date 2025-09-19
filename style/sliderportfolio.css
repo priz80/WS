@@ -63,7 +63,7 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1270px) {
+/* @media (max-width: 1270px) {
 
   .portfolio-conteiner {
     width: 100%;
@@ -128,4 +128,4 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-}
+} */
