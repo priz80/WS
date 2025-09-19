@@ -1,6 +1,7 @@
 .main {
-  position: relative;
+  /* position: relative; */
   width: 1905px;
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
