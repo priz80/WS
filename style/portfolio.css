@@ -36,10 +36,9 @@
 }
 
 
-@media (max-width: 1270px) {
+/* @media (max-width: 1270px) {
 .portfolio-arrow_conteiner {
   position: static;
-  /* width: 100px; */
   display: flex;
   justify-content: space-between;
   justify-content: center;
@@ -72,4 +71,4 @@
   width: auto;
   height: auto;
 }
-}
+} */
