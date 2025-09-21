@@ -4,8 +4,6 @@
   max-width: 1905px;
   display: flex;
   justify-content: center;
-  /* align-items: flex-end; */
-  /* justify-content: space-between; */
   overflow: hidden;
 }
 
@@ -22,7 +20,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .header-conteiner {
@@ -78,11 +75,8 @@ h3::after {
 }
 
 .target-conteiner {
-  /* display: flex; */
-  /* height: 825px; */
   position: absolute;
   z-index: -1;
-  /* align-items: flex-end; */
   bottom: 22px;
   right: 8px;
 }
@@ -112,29 +106,16 @@ h3::after {
   margin-top: 57px;
 }
 
-/* @media (max-width: 1270px) {
-  .line {
-    top: 640px;
-  }
+@media (max-width: 1270px) {
+
 
   .main-conteiner {
-    height: 640px;
-  }
-
-  .header-conteiner {
-    height: 416px;
-  }
-
-  .h2 {
-    display: none;
-  }
-
-  h3::after {
-    content: "Мы web-студия которая работает уже больше 3-х лет";
+    padding-right: 0px;
   }
 
   .man {
-    right: 47px;
+    width: 100%;
+    min-width: 547px;
   }
 
   .man-conteiner {
@@ -143,8 +124,10 @@ h3::after {
   }
 
   .target-conteiner {
-    left: 38px;
+    position: absolute;
+    z-index: -1;
     bottom: -5px;
+    right: -55px;
   }
 
   .circle {
@@ -164,27 +147,19 @@ h3::after {
     width: 231px;
     height: 231px;
     border-radius: 231px;
-    margin-top: 28px;
+    margin-top: 27px;
   }
-} */
 
-/* @media (max-width: 960px) {
-  .man {
-        right: -92px;
-      }
-
-
-.main {
-  overflow: hidden;
-}
-}
-
-@media (max-width: 480px) {
-.h1 {
-  width: 228px;
+  .header-conteiner {
+    max-width: 228px;
+    min-height: 412px;
 }
 
 .h3 {
-  width: 218px;
+  margin-top: 10px;
 }
-} */
+
+h3::after {
+  content: "Мы web-студия которая работает уже больше 3-х лет";
+}
+}
