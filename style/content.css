@@ -6,10 +6,9 @@
 
 .section-conteiner {
   display: flex;
-  
-  /* justify-content: center; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 
 
@@ -21,6 +20,7 @@
 }
 .section-conteiner_about {
   background-image: url(/img/group-lineup.svg);
+
 }
 .section-conteiner_portfolio {
   background-image: url(/img/group-line.svg);
