@@ -73,12 +73,12 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1270px) {
   h1 {
     font-size: 27px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 120%;
     background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
     background-clip: text;
     -webkit-background-clip: text;
