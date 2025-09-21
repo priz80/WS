@@ -1,10 +1,11 @@
 .main {
-  /* position: relative; */
-  width: 1905px;
-  /* width: 100%; */
+  position: relative;
+  width: 100%;
+  max-width: 1905px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  /* justify-content: space-between; */
   overflow: hidden;
 }
 
@@ -16,16 +17,6 @@
   max-width: 1294px;
   padding-left: 16px;
   padding-right: 5px;
-  height: 1055px;
-}
-
-.lamp {
-  width: 127px;
-  height: 49px;
-  margin: 0 auto;
-  background-image: url(/img/lamp.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .header {
@@ -47,20 +38,19 @@
   margin-left: 3px;
 }
 .h2 h2 {
-line-height: 110%;
-letter-spacing: -0.3px;
-} 
+  line-height: 110%;
+  letter-spacing: -0.3px;
+}
 
 .h3 {
   max-width: 672px;
   margin-top: 35px;
   margin-left: 2px;
 }
-.h3 h3{
+.h3 h3 {
   line-height: 140%;
   letter-spacing: -0.1px;
 }
-
 
 h3::after {
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
@@ -71,27 +61,30 @@ h3::after {
   display: flex;
   justify-content: flex-end;
   width: 1905px;
-  height: 844px;
+  height: 100%;
+  align-items: flex-end;
 }
 
 .man-conteiner {
   position: relative;
-  width: 780px;
+  width: 781px;
   height: 844px;
   background-image: url(/img/man.svg);
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
-
+  justify-content: flex-end;
 }
 
 .target-conteiner {
-  display: flex;
-  height: 825px;
+  /* display: flex; */
+  /* height: 825px; */
   position: absolute;
   z-index: -1;
-  align-items: flex-end
+  /* align-items: flex-end; */
+  bottom: 22px;
+  right: 8px;
 }
 
 .circle {
@@ -117,19 +110,6 @@ h3::after {
   border: 2px solid rgba(46, 236, 197, 0.6);
   margin: 0 auto;
   margin-top: 57px;
-}
-
-.line {
-  position: absolute;
-  top: 1055px;
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(
-    90deg,
-    rgba(42, 188, 158, 0) 0%,
-    #2abc9e 48.65%,
-    rgba(42, 188, 158, 0) 100%
-  );
 }
 
 /* @media (max-width: 1270px) {
