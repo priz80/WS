@@ -94,19 +94,26 @@
 
 @media (max-width: 1270px) {
   .menu-conteiner {
-    display: flex;
-    justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
   }
 
   .menu {
-    margin-top: 37px;
+    top: 42px;
   }
 
   .lamp {
     display: none;
   }
+
+  .logo {
+    width: 88px;
+    height: 47px;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+}
 
   .burger {
     display: block;
@@ -164,14 +171,7 @@
     display: none;
   }
 
-  .logo {
-    width: 69px;
-    height: 47px;
-    background-image: url(../img/logo.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 27px;
-  }
+
 
   .h2 {
     display: none;
