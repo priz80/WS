@@ -1,12 +1,12 @@
 @import "/font/stylesheet.css";
 @import "normalize.css";
-@import "btnupvidget.css";
 @import "font-style.css";
 @import "content.css";
 
 @import "button-style.css";
 @import "menu.css";
 
+/* @import "menu-burger.css"; */
 @import "header.css";
 
 @import "about.css";
@@ -14,14 +14,12 @@
 @import "portfolio.css";
 @import "sliderportfolio.css";
 
-
 @import "tarif.css";
 @import "slidertarif.css";
-
 
 @import "forma.css";
 
 @import "contacty.css";
 
 @import "footer.css";
-
+@import "btnupvidget.css";
