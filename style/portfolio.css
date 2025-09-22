@@ -1,7 +1,7 @@
 .portfolio {
   position: relative;
-  width: 1905px;
-  /* height: auto; */
+  /* max-width: 1905px; */
+  width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -10,9 +10,10 @@
 .portfolio-conteiner {
   width: 100%;
   display: flex;
+  justify-content: space-between;
   max-width: 1283px;
-  padding-left: 10px;
-  height: auto;
+  padding-left: 13px;
+  padding-top: 136px;
 }
 
 .portfolio-header {
@@ -25,16 +26,15 @@
 }
 
 .portfolio-arrow_conteiner {
-  position: absolute;
+  position: relative;
   /* width: 100px; */
   display: flex;
   justify-content: space-between;
   top: 155px;
-  right: 306px;
+  /* right: 306px; */
   gap: 499px;
   z-index: 1;
 }
-
 
 /* @media (max-width: 1270px) {
 .portfolio-arrow_conteiner {
