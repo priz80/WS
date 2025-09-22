@@ -1,8 +1,5 @@
 .slider-portfolio {
   position: absolute;
-  /* top: 2267px; */
-  /* width: 100%; */
-  /* overflow: hidden; */
   display: flex;
   justify-content: center;
   
@@ -64,7 +61,7 @@
   background-repeat: no-repeat;
 }
 
-/* @media (max-width: 1270px) {
+@media (max-width: 1270px) {
 
   .portfolio-conteiner {
     width: 100%;
@@ -75,14 +72,14 @@
     height: auto;
 }
 
-  .slider-portfolio {
-    position: static;
-  }
+.slider-portfolio {
+  position: relative;
+}
   
   .slider-portfolio_container {
     gap: 39px;
     width: 1213px;
-    padding-inline-start: 200px;
+    padding-inline-start: 100px;
     justify-content: center;
 
     
@@ -129,4 +126,4 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-} */
+}
