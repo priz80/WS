@@ -1,13 +1,13 @@
 const ballslider = document.getElementById("ballslider");
 
-ballslider.addEventListener("mouseover", () => {
+ballslider.addEventListener("mouseover", function() {
     ballslider.classList.remove("ballslider");
     ballslider.classList.add("ballsliders");
     circleslider.classList.remove("circleslider");
     circleslider.classList.add("circlesliders");
 
   });
-  ballslider.addEventListener("mouseout", () => {
+  ballslider.addEventListener("mouseout", function() {
     ballslider.classList.remove("ballsliders");
     ballslider.classList.add("ballslider");
     circleslider.classList.remove("circlesliders");
@@ -17,14 +17,14 @@ ballslider.addEventListener("mouseover", () => {
 
 const ballsliderone = document.getElementById("ballsliderone");
 
-ballsliderone.addEventListener("mouseover", () => {
+ballsliderone.addEventListener("mouseover", function() {
     ballsliderone.classList.remove("ballslider");
     ballsliderone.classList.add("ballsliders");
     circlesliderone.classList.remove("circleslider");
     circlesliderone.classList.add("circlesliders");
 
   });
-  ballsliderone.addEventListener("mouseout", () => {
+  ballsliderone.addEventListener("mouseout", function() {
     ballsliderone.classList.remove("ballsliders");
     ballsliderone.classList.add("ballslider");
     circlesliderone.classList.remove("circlesliders");
@@ -33,7 +33,7 @@ ballsliderone.addEventListener("mouseover", () => {
 
   const ballslidertoo = document.getElementById("ballslidertoo");
 
-ballslidertoo.addEventListener("mouseover", () => {
+ballslidertoo.addEventListener("mouseover", function() {
     ballslidertoo.classList.remove("ballslider");
     ballslidertoo.classList.add("ballsliders");
     circleslidertoo.classList.remove("circleslider");
@@ -41,7 +41,7 @@ ballslidertoo.addEventListener("mouseover", () => {
     telegram.classList.remove("telegram");
     telegram.classList.add("telegrams");
   });
-  ballslidertoo.addEventListener("mouseout", () => {
+  ballslidertoo.addEventListener("mouseout", function() {
     ballslidertoo.classList.remove("ballsliders");
     ballslidertoo.classList.add("ballslider");
     circleslidertoo.classList.remove("circlesliders");
@@ -52,7 +52,7 @@ ballslidertoo.addEventListener("mouseover", () => {
 
   const ballsliderthree = document.getElementById("ballsliderthree");
 
-ballsliderthree.addEventListener("mouseover", () => {
+ballsliderthree.addEventListener("mouseover", function() {
     ballsliderthree.classList.remove("ballslider");
     ballsliderthree.classList.add("ballsliders");
     circlesliderthree.classList.remove("circleslider");
@@ -60,7 +60,7 @@ ballsliderthree.addEventListener("mouseover", () => {
     
 
   });
-  ballsliderthree.addEventListener("mouseout", () => {
+  ballsliderthree.addEventListener("mouseout", function() {
     ballsliderthree.classList.remove("ballsliders");
     ballsliderthree.classList.add("ballslider");
     circlesliderthree.classList.remove("circlesliders");
@@ -69,14 +69,14 @@ ballsliderthree.addEventListener("mouseover", () => {
 
   const ballsliderfour = document.getElementById("ballsliderfour");
 
-ballsliderfour.addEventListener("mouseover", () => {
+ballsliderfour.addEventListener("mouseover", function() {
     ballsliderfour.classList.remove("ballslider");
     ballsliderfour.classList.add("ballsliders");
     circlesliderfour.classList.remove("circleslider");
     circlesliderfour.classList.add("circlesliders");
 
   });
-  ballsliderfour.addEventListener("mouseout", () => {
+  ballsliderfour.addEventListener("mouseout", function() {
     ballsliderfour.classList.remove("ballsliders");
     ballsliderfour.classList.add("ballslider");
     circlesliderfour.classList.remove("circlesliders");
