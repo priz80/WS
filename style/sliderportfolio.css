@@ -1,17 +1,18 @@
 .slider-portfolio {
   position: absolute;
   /* top: 2267px; */
-  width: 100%;
+  /* width: 100%; */
   /* overflow: hidden; */
   display: flex;
   justify-content: center;
+  
 }
 
 .slider-portfolio_container {
   position: relative;
   display: flex;
   gap: 102px;
-  width: 1236px;
+  width: 1900px;
   padding-inline-start: 662px;
   
 }
