@@ -42,13 +42,13 @@
 
     max-width: 360px;
     padding-left: 13px;
-    padding-top: 136px;
+    padding-top: 2px;
   }
   .portfolio-arrow_conteiner {
     justify-content: center;
     top: 0px;
     gap: 35px;
-    
+    height: 150px;
   }
 
   .portfolio-header {
