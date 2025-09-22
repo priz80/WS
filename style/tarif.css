@@ -1,5 +1,5 @@
 .tarif {
-  width: 1905px;
+  width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -9,13 +9,16 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 1283px;
+  max-width: 1298px;
   padding-left: 10px;
+  padding-top: 77px;
+  gap: 48px;
 }
 
 .tarif-header {
   display: flex;
   justify-content: center;
+
 }
 
 /* .tarif-header_conteiner {
@@ -25,9 +28,9 @@
   position: absolute;
   width: 100%;
   display: flex;
-  top: 270px;
+  top: 250px;
   justify-content: center;
-  gap: 1106px;
+  gap: 954px;
 }
 
 /* @media (max-width: 1270px) {
