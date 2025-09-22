@@ -63,14 +63,14 @@
 
 @media (max-width: 1270px) {
 
-  .portfolio-conteiner {
+ /*  .portfolio-conteiner {
     width: 100%;
     display: flex
 ;
     max-width: 380px;
     padding-left: 10px;
     height: auto;
-}
+} */
 
 .slider-portfolio {
   position: relative;
@@ -79,7 +79,7 @@
   .slider-portfolio_container {
     gap: 39px;
     width: 1213px;
-    padding-inline-start: 100px;
+    padding-inline-start: 206px;
     justify-content: center;
 
     
