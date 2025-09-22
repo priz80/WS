@@ -3,7 +3,10 @@
   position: fixed;
   /* цвет фона */
   background: linear-gradient(180deg, #b5feef 0%, #22a98d 100%);
-
+  /* ширина элемента */
+  width: 60px;
+  /* высота элемента */
+  height: 50px;
   /* расстояние от правого края окна браузера */
   right: 20px;
   /* расстояние от нижнего края окна браузера */
@@ -24,12 +27,12 @@
   opacity: 0.5;
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1270px) {
   .btn-up {
     /* ширина элемента */
-    width: 60px;
+    width: 30px;
     /* высота элемента */
-    height: 50px;
+    height: 25px;
   }
 }
 
