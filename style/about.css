@@ -13,7 +13,7 @@
   justify-content: space-between;
   gap: 29px;
   height: 835px;
-  /* margin-top: 89px; */
+  margin-top: 89px;
   padding-left: 16px;
     padding-right: 5px;
 }
@@ -73,12 +73,30 @@
 @media (max-width: 1270px) {
   .about-conteiner {
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    width: 100%;
+    max-width: 360px;
+    margin-top: 65px;
+}
+
+.about-header {
+  width: 360px;
+  margin-left: 0px;
+  
+  text-align: center;
+}
+
+.subtitle-about_h5_up {
+  display: none;
+}
+
+.subtitle-about_h5_down {
+  padding-top: 20px;
+
 }
 
 .card {
   width: 289px;
   height: 289px;
-
 }
 }
