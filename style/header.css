@@ -106,6 +106,14 @@ h3::after {
   margin-top: 57px;
 }
 
+.box-text {
+  display: none;
+}
+
+.box-text_next {
+  display: none;
+}
+
 @media (max-width: 1270px) {
 
 
@@ -162,4 +170,41 @@ h3::after {
 h3::after {
   content: "Мы web-студия которая работает уже больше 3-х лет";
 }
+
+
+.box-text_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.box-text_conteiner {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.box-text {
+  width: 325px;
+  height: 38px;
+  border-radius: 41px;
+  border: 1.5px solid #208c76;
+  background: rgba(46, 236, 197, 0.04);
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-text p {
+  width: 298px;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 }
