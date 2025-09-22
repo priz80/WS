@@ -33,11 +33,14 @@
   gap: 954px;
 }
 
-/* @media (max-width: 1270px) {
+@media (max-width: 1270px) {
   .tarif-arrow_conteiner {
-    position: static;
+    position: relative;
     display: flex;
     justify-content: center;
+    top: 0;
     gap: 39px;
+    height: 150px;
+    align-items: center;
   }
-} */
+}
