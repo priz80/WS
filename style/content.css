@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   /* gap: 50px; */
-  align-items: center;
+  /* align-items: center; */
 }
 
 .section-conteiner {
   display: flex;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 
@@ -21,7 +21,6 @@
 }
 .section-conteiner_about {
   background-image: url(/img/group-lineup.svg);
-
 }
 .section-conteiner_portfolio {
   background-image: url(/img/group-line.svg);
