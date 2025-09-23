@@ -14,15 +14,15 @@
 
 .section-conteiner_header {
   width: 100%;
-  background-image: url(/img/room.svg);
+  background-image: url(../img/room.svg);
   flex-direction: column;
   align-items: center;
 }
 .section-conteiner_about {
-  background-image: url(/img/group-lineup.svg);
+  background-image: url(../img/group-lineup.svg);
 }
 .section-conteiner_portfolio {
-  background-image: url(/img/group-line.svg);
+  background-image: url(../img/group-line.svg);
 }
 
 .section-conteiner_forma {
