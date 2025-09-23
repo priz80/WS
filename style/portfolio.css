@@ -25,6 +25,18 @@
   /*  width: 672px; */
 }
 
+.btn-portfolio {
+  width: 269px;
+  height: 51px;
+  border-radius: 49px;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 37px 0 rgba(46, 236, 197, 0.2);
+}
+
+.btn-portfolio p {
+  width: 209px;
+}
+
 .portfolio-arrow_conteiner {
   position: relative;
   /* width: 100px; */
@@ -35,6 +47,8 @@
   gap: 499px;
   z-index: 1;
 }
+
+
 
 @media (max-width: 1270px) {
   .portfolio-conteiner {
