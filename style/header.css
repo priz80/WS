@@ -33,6 +33,15 @@
   letter-spacing: -0.1px;
 }
 
+
+
+.h2 {
+  position: relative;
+  margin-left: 3px;
+}
+
+@media (min-width: 1270px) {
+  
 .h1 p::after {
   content: "Разработка сайтов";
 }
@@ -55,11 +64,6 @@
   filter: blur(22.5px);
 }
 
-.h2 {
-  position: relative;
-  margin-left: 3px;
-}
-
 .h2 p {
   position: absolute;
   top: 0;
@@ -80,6 +84,7 @@
 .h2 p::after {
   content: "для твоего бизнеса";
 }
+}
 
 .h2 h2 {
   line-height: 110%;
@@ -99,6 +104,51 @@
 h3::after {
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
+
+.btn-block {
+  width: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-header {
+  width: 200px;
+  height: 57px;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15);
+}
+
+.btn-header p {
+  width: 125px;
+  font-size: 19px;
+}
+
+.arrow {
+  width: 9px;
+  height: 16px;
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.question {
+  width: 203px;
+}
+
+.question a {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-family);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.question a::after {
+  content: "Остались вопросы?";
+}
+
 
 .man {
   position: absolute;
@@ -214,6 +264,38 @@ h3::after {
 
   h3::after {
     content: "Мы web-студия которая работает уже больше 3-х лет";
+  }
+
+  .btn-block {
+    width: 129px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-header {
+    width: 129px;
+    height: 38px;
+    /* background: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15); */
+  }
+
+  .btn-header P {
+    width: 74px;
+    font-size: 11px;
+  }
+
+  .arrow {
+    width: 7px;
+    height: 12px;
+    margin-left: 0;
+    background-image: url(../img/m-arrow.svg);
+    /*     background-size: contain;
+    background-repeat: no-repeat; */
+  }
+
+  .question {
+    display: none;
   }
 
   .box-text_block {
