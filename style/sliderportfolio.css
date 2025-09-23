@@ -9,9 +9,9 @@
   position: relative;
   display: flex;
   gap: 102px;
-  width: 1900px;
+  /* width: 1900px; */
+  /* width: 100%; */
   padding-inline-start: 662px;
-  
 }
 
 .slider-img_conteiner {
