@@ -13,9 +13,10 @@
   justify-content: space-between;
   gap: 29px;
   height: 835px;
-  margin-top: 89px;
+  margin-top: 84px;
   /* padding-left: 16px;
   padding-right: 5px; */
+  /* max-width: 1285px; */
 }
 
 .about-header {
@@ -32,7 +33,8 @@
 
 .title-about_h4 {
   /* padding-left: 2px; */
-
+margin-top: 13px;
+margin-bottom: 18px;
   letter-spacing: 0.07px;
 }
 .subtitle-about_h5_up {
@@ -44,11 +46,13 @@
   /* padding-top: 20px; */
   /* padding-left: 2px; */
   letter-spacing: -0.07px;
+  margin-bottom: 34px;
+
 }
 
 .btton-about_conteiner {
   position: relative;
-  margin-top: 45px;
+  /* margin-top: 45px; */
 }
 
 .btn-about {
