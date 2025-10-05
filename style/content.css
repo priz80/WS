@@ -13,7 +13,7 @@
 }
 
 .section-conteiner_header {
-  width: 100%;
+  /* width: 100%; */
   background-image: url(../img/room.svg);
   flex-direction: column;
   align-items: center;
@@ -37,6 +37,23 @@
     #12473c 60.63%,
     #292929 110.44%
   );
+}
+
+.content-block {
+  position: relative;
+  width: 100%;
+  max-width: 1905px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.conteiner-block {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  max-width: 1294px;
+  
 }
 
 .line {
