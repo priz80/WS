@@ -9,16 +9,18 @@
   display: flex; */
   flex-direction: column;
   /* max-width: 1283px; */
-  padding-left: 10px;
+  padding-left: 18px;
 }
 
-.forma-header {
+.forma-header h4 {
+  margin-top: 34px;
+  margin-bottom: 24px;
 }
 
 .forma-block {
   display: flex;
   width: 922px;
-  height: 332px;
+  height: 310px;
 }
 
 .forma-field {
