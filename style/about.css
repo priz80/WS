@@ -1,14 +1,14 @@
-.about {
+/* .about {
   width: 100%;
   max-width: 1905px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .about-conteiner {
-  width: 100%;
+  /* width: 100%;
   max-width: 1294px;
-  display: flex;
+  display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 29px;
