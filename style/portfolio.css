@@ -1,17 +1,17 @@
-.portfolio {
+/* .portfolio {
   position: relative;
-  /* max-width: 1905px; */
+  max-width: 1905px;
   width: 100%;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
-
+ */
 .portfolio-conteiner {
-  width: 100%;
-  display: flex;
+  /* width: 100%;
+  display: flex; */
   justify-content: space-between;
-  max-width: 1283px;
+  /* max-width: 1294px; */
   padding-left: 13px;
   padding-top: 136px;
 }
