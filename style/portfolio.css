@@ -12,8 +12,9 @@
   display: flex; */
   justify-content: space-between;
   /* max-width: 1294px; */
-  /* padding-left: 13px;
-  padding-top: 136px; */
+  /* padding-left: 13px; */
+  margin-top: 136px;
+  /* max-width: 1264px; */
 }
 
 .portfolio-header {
