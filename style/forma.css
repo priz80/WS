@@ -1,13 +1,14 @@
-.forma {
+/* .forma {
   width: 1905px;
   display: flex;
   justify-content: center;
-}
+} */
+
 .forma-conteiner {
-  width: 100%;
-  display: flex;
+  /* width: 100%;
+  display: flex; */
   flex-direction: column;
-  max-width: 1283px;
+  /* max-width: 1283px; */
   padding-left: 10px;
 }
 
